@@ -17,6 +17,6 @@ I next reconstructed the schematic from the simulation into Kicad. I also added 
 One of the features of Kicad that I learned for this was creating hierarchical sheets. This is useful for this because I only want to have to create the schematic for the amplifier portion once. Then, I can use that hierarchical sheet twice in the parent sheet for both audio channels.
 ![image](https://github.com/user-attachments/assets/a089c318-e2e3-4696-9778-9ea1591eb5c4)
 
-I learned a lot about class AB amplifier design and feedback circuitry, mostly the ESP's tutorial on how to design an amplifier. From this page, I learned how to modify this schematic to increase performance.
+I learned a lot about class AB amplifier design and feedback circuitry, and LOTS of math that goes into calculating all the component values! The ESP site has another page that has a tutorial on how to design different kinds of amplifiers, so that was really helpful and explained everything super well. From that page, I learned how to modify the original schematic to increase performance.
 
 time spent:5 hours
