@@ -612,6 +612,14 @@
     [
       "c5a9eefd-b86f-4174-bbc7-e8261656b786",
       "Root"
+    ],
+    [
+      "9e569c12-d8fb-4c67-ab1b-ca318ebeacbd",
+      "amp-channel"
+    ],
+    [
+      "530bc118-39b2-4396-b6e6-c8750db23813",
+      "amp-channel1"
     ]
   ],
   "text_variables": {}
