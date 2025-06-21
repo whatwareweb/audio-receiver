@@ -687,6 +687,142 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Fuse"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fuse"
+				(at -1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Fuse*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fuse_0_1"
+				(rectangle
+					(start -0.762 -2.54)
+					(end 0.762 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Fuse_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -1015,6 +1151,28 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 25.4 49.53)
+		(end 50.8 82.55)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 568d57ae-7fba-42e8-a56a-017d365cef2e)
+	)
+	(text "To include in BOM\nNot placed on board\n\nInstall this 2A fuse in\nfuse holder"
+		(exclude_from_sim no)
+		(at 38.1 71.882 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "08cfc188-bad5-4bed-9de0-d119971de8ce")
+	)
 	(text "Left channel"
 		(exclude_from_sim no)
 		(at 121.412 53.086 0)
@@ -1036,22 +1194,30 @@
 		(uuid "7867453a-e5d1-4cb3-9849-6b0f1945f859")
 	)
 	(junction
-		(at 55.88 35.56)
+		(at 76.2 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "005e2d7d-3ecf-40f9-8058-4bafbfd54949")
+		(uuid "4004fdbc-5f1d-445b-a695-ac56c46ece46")
 	)
 	(junction
-		(at 55.88 33.02)
+		(at 76.2 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "612e89ef-a8f8-49df-8b36-bc735c9ee9aa")
+		(uuid "b8bc6f8c-a4a6-46ba-9228-b77b38d537f1")
 	)
 	(junction
 		(at 189.23 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eca31afc-d9a4-4763-b6c3-c973b93bece0")
+	)
+	(no_connect
+		(at 41.91 59.69)
+		(uuid "4412cd74-403c-4524-b219-5e51210b26c6")
+	)
+	(no_connect
+		(at 34.29 59.69)
+		(uuid "9c5e1fe0-eae1-4dd3-8dc2-128e62b737ab")
 	)
 	(wire
 		(pts
@@ -1065,7 +1231,17 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 33.02) (xy 50.8 33.02)
+			(xy 76.2 33.02) (xy 63.5 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "333b1eaf-8a55-4ad1-bf5c-fb7f0e91e285")
+	)
+	(wire
+		(pts
+			(xy 50.8 33.02) (xy 55.88 33.02)
 		)
 		(stroke
 			(width 0)
@@ -1145,16 +1321,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 33.02) (xy 55.88 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88d8b6aa-d35c-47d8-b130-c2d7a6df99e6")
-	)
-	(wire
-		(pts
 			(xy 189.23 85.09) (xy 189.23 92.71)
 		)
 		(stroke
@@ -1162,6 +1328,16 @@
 			(type default)
 		)
 		(uuid "8c78380c-01be-44b4-81e9-c2e118fde86d")
+	)
+	(wire
+		(pts
+			(xy 76.2 33.02) (xy 88.9 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9361197e-1707-40ac-aff9-975be6008cf5")
 	)
 	(wire
 		(pts
@@ -1175,7 +1351,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 35.56) (xy 55.88 35.56)
+			(xy 88.9 35.56) (xy 76.2 35.56)
 		)
 		(stroke
 			(width 0)
@@ -1195,7 +1371,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 35.56) (xy 50.8 35.56)
+			(xy 50.8 35.56) (xy 76.2 35.56)
 		)
 		(stroke
 			(width 0)
@@ -1310,8 +1486,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Fuse")
+		(at 59.69 33.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ff2a38b-cd5e-45c0-b5ab-153b5fedbd53")
+		(property "Reference" "F1"
+			(at 59.69 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fuse Holder"
+			(at 59.69 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuseholder_Clip-5x20mm_Eaton_1A5601-01_Inline_P20.80x6.76mm_D1.70mm_Horizontal"
+			(at 59.69 34.798 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/87/eaton_1axxxx_pcb_fuse_clips_atc_atm_blade_data_she-1608562.pdf"
+			(at 59.69 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 59.69 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser URL" "https://www.mouser.com/ProductDetail/Eaton-Electronics/BK-1A5601?qs=sfCJykTDjbAGESUvg%2FlMZw%3D%3D"
+			(at 59.69 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "06888b4c-4956-4be6-8a7a-88e61c526f6f")
+		)
+		(pin "1"
+			(uuid "422234ef-7ec0-480b-adbc-35b19069ab7e")
+		)
+		(instances
+			(project ""
+				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786"
+					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
-		(at 66.04 33.02 0)
+		(at 88.9 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1320,7 +1573,7 @@
 		(fields_autoplaced yes)
 		(uuid "383937ff-a94b-4c31-9613-328308aa4886")
 		(property "Reference" "#PWR019"
-			(at 66.04 36.83 0)
+			(at 88.9 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1329,7 +1582,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 66.04 27.94 0)
+			(at 88.9 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1337,7 +1590,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 66.04 33.02 0)
+			(at 88.9 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1346,7 +1599,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 33.02 0)
+			(at 88.9 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1355,7 +1608,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 66.04 33.02 0)
+			(at 88.9 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1370,6 +1623,83 @@
 			(project ""
 				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 38.1 59.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c2e9ce0-e96a-4ca1-8d3a-6fbaddb26b41")
+		(property "Reference" "F2"
+			(at 38.1 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2A"
+			(at 38.1 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 61.468 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/87/eaton_s500_glass_tube_fuses_data_sheet-1608830.pdf"
+			(at 38.1 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 38.1 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser URL" "https://www.mouser.com/ProductDetail/Eaton-Electronics/BK1-S500-2-R?qs=9GX7soZQXxEC5%2FbW3phE%252Bg%3D%3D"
+			(at 38.1 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2ff724c6-874a-4ee2-b807-c63e0ea27b27")
+		)
+		(pin "1"
+			(uuid "fc208a57-a1e4-4bf2-97df-20a5b622afca")
+		)
+		(instances
+			(project "audio-receiver"
+				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786"
+					(reference "F2")
 					(unit 1)
 				)
 			)
@@ -1478,7 +1808,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 198.12 87.63 0)
 			(effects
 				(font
@@ -1488,6 +1818,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 198.12 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser URL" ""
 			(at 198.12 87.63 0)
 			(effects
 				(font
@@ -1585,7 +1924,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 66.04 35.56 0)
+		(at 88.9 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1594,7 +1933,7 @@
 		(fields_autoplaced yes)
 		(uuid "a801e2e4-cc7a-4898-992e-e76a9b244619")
 		(property "Reference" "#PWR020"
-			(at 66.04 41.91 0)
+			(at 88.9 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1603,7 +1942,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 66.04 40.64 0)
+			(at 88.9 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1611,7 +1950,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 66.04 35.56 0)
+			(at 88.9 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1620,7 +1959,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 35.56 0)
+			(at 88.9 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1629,7 +1968,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 66.04 35.56 0)
+			(at 88.9 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1686,7 +2025,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 93.98 93.98 0)
 			(effects
 				(font
@@ -1696,6 +2035,15 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 93.98 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser URL" ""
 			(at 93.98 93.98 0)
 			(effects
 				(font
@@ -1790,7 +2138,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 55.88 33.02 0)
+		(at 76.2 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1799,7 +2147,7 @@
 		(fields_autoplaced yes)
 		(uuid "bd820234-4613-4225-a15b-4500adde4f05")
 		(property "Reference" "#FLG01"
-			(at 55.88 31.115 0)
+			(at 76.2 31.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1808,7 +2156,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 55.88 27.94 0)
+			(at 76.2 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1816,7 +2164,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 33.02 0)
+			(at 76.2 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1825,7 +2173,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 55.88 33.02 0)
+			(at 76.2 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1834,7 +2182,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 55.88 33.02 0)
+			(at 76.2 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1856,7 +2204,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 55.88 35.56 180)
+		(at 76.2 35.56 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1865,7 +2213,7 @@
 		(fields_autoplaced yes)
 		(uuid "c51cd2f7-db51-497b-a169-cf058b94ac77")
 		(property "Reference" "#FLG02"
-			(at 55.88 37.465 0)
+			(at 76.2 37.465 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1874,7 +2222,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 55.88 40.64 0)
+			(at 76.2 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1882,7 +2230,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 35.56 0)
+			(at 76.2 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1891,7 +2239,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 55.88 35.56 0)
+			(at 76.2 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1900,7 +2248,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 55.88 35.56 0)
+			(at 76.2 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2023,7 +2371,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 45.72 33.02 0)
 			(effects
 				(font
@@ -2033,6 +2381,15 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 45.72 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser URL" ""
 			(at 45.72 33.02 0)
 			(effects
 				(font

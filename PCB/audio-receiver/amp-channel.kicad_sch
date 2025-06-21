@@ -613,142 +613,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Fuse"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "F"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Fuse"
-				(at -1.905 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Fuse"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "fuse"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*Fuse*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Fuse_0_1"
-				(rectangle
-					(start -0.762 -2.54)
-					(end 0.762 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Fuse_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:Q_NPN"
 			(pin_numbers
 				(hide yes)
@@ -2376,16 +2240,6 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 66.04) (xy 219.71 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3e8c24f-54b9-4863-b96f-6a06d5697232")
-	)
-	(wire
-		(pts
 			(xy 124.46 109.22) (xy 124.46 113.03)
 		)
 		(stroke
@@ -2686,7 +2540,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 66.04) (xy 201.93 66.04)
+			(xy 194.31 66.04) (xy 219.71 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2875,7 +2729,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Wurth-Elektronik/860020672010?qs=sGAEpiMZZMsh%252B1woXyUXj4jKQI6sNRw6%252B%2FnWw7D23Ww%3D"
 			(at 194.31 73.66 0)
 			(effects
 				(font
@@ -2885,6 +2739,15 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 194.31 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser URL" "https://www.mouser.com/ProductDetail/Nichicon/UVR1H101MPD1TD?qs=sGAEpiMZZMsh%252B1woXyUXj9Qfu%2FLgQWnHf9Zyy1TLY94%3D"
 			(at 194.31 73.66 0)
 			(effects
 				(font
@@ -2949,7 +2812,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/308/1/BC63916_D-1802688.pdf"
 			(at 139.7 77.47 0)
 			(effects
 				(font
@@ -2959,6 +2822,15 @@
 			)
 		)
 		(property "Description" "NPN bipolar junction transistor"
+			(at 139.7 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser URL" "https://www.mouser.com/ProductDetail/onsemi-Fairchild/BC63916-D74Z?qs=0lQeLiL1qybh%252B9xfKzhmFQ%3D%3D"
 			(at 139.7 77.47 0)
 			(effects
 				(font
@@ -3024,7 +2896,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/860020672010.pdf"
 			(at 45.72 106.68 0)
 			(effects
 				(font
@@ -3035,6 +2907,15 @@
 		)
 		(property "Description" "Polarized capacitor"
 			(at 45.72 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser URL" "https://www.mouser.com/ProductDetail/Wurth-Elektronik/860020672010?qs=sGAEpiMZZMsh%252B1woXyUXj4jKQI6sNRw6%252B%2FnWw7D23Ww%3D"
+			(at 45.72 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3168,7 +3049,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 160.02 99.06 0)
 			(effects
 				(font
@@ -3178,6 +3059,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 160.02 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser URL" ""
 			(at 160.02 99.06 0)
 			(effects
 				(font
@@ -3242,7 +3132,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/308/1/1N914_D-3574539.pdf"
 			(at 124.46 105.41 0)
 			(effects
 				(font
@@ -3271,6 +3161,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 124.46 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser URL" "https://www.mouser.com/ProductDetail/onsemi-Fairchild/1N4148-T50R?qs=sGAEpiMZZMtbRapU8LlZD%252B6h%2FWulpAkrNJDKqwRgmZcB5SlWjKcc2w%3D%3D"
+			(at 124.46 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3334,7 +3233,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 157.48 82.55 0)
 			(effects
 				(font
@@ -3344,6 +3243,15 @@
 			)
 		)
 		(property "Description" "NPN bipolar junction transistor"
+			(at 157.48 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser URL" ""
 			(at 157.48 82.55 0)
 			(effects
 				(font
@@ -3408,7 +3316,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/210/Class_I_Temperature_Compensation-2298228.pdf"
 			(at 120.65 113.03 0)
 			(effects
 				(font
@@ -3419,6 +3327,15 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 120.65 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser URL" "https://www.mouser.com/ProductDetail/Walsin/YP501101K040BAND5P?qs=sGAEpiMZZMsh%252B1woXyUXj9Vc%2FsqQGnyVc97Ek7nEcX0%3D"
+			(at 120.65 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3482,7 +3399,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Wurth-Elektronik/860020672010?qs=sGAEpiMZZMsh%252B1woXyUXj4jKQI6sNRw6%252B%2FnWw7D23Ww%3D"
 			(at 86.36 106.68 0)
 			(effects
 				(font
@@ -3492,6 +3409,15 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 86.36 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser URL" "https://www.mouser.com/ProductDetail/Nichicon/UVR1H101MPD1TD?qs=sGAEpiMZZMsh%252B1woXyUXj9Qfu%2FLgQWnHf9Zyy1TLY94%3D"
 			(at 86.36 106.68 0)
 			(effects
 				(font
@@ -3556,7 +3482,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/308/1/1N914_D-3574539.pdf"
 			(at 124.46 90.17 0)
 			(effects
 				(font
@@ -3585,6 +3511,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 124.46 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser URL" "https://www.mouser.com/ProductDetail/onsemi-Fairchild/1N4148-T50R?qs=sGAEpiMZZMtbRapU8LlZD%252B6h%2FWulpAkrNJDKqwRgmZcB5SlWjKcc2w%3D%3D"
+			(at 124.46 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3646,7 +3581,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 96.52 100.33 0)
 			(effects
 				(font
@@ -3657,6 +3592,15 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 96.52 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser URL" ""
+			(at 96.52 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3790,7 +3734,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 55.88 99.06 0)
 			(effects
 				(font
@@ -3800,6 +3744,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 55.88 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser URL" ""
 			(at 55.88 99.06 0)
 			(effects
 				(font
@@ -3864,7 +3817,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://diotec.com/request/datasheet/uf4001.pdf"
 			(at 171.45 91.44 0)
 			(effects
 				(font
@@ -3900,6 +3853,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser URL" "https://www.mouser.com/ProductDetail/Diotec-Semiconductor/UF4004?qs=OlC7AqGiEDlRgKmeDlLF1Q%3D%3D"
+			(at 171.45 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2b3e2855-35c0-46cc-a688-963427f719a4")
 		)
@@ -3914,78 +3876,6 @@
 				)
 				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/9e569c12-d8fb-4c67-ab1b-ca318ebeacbd"
 					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Fuse")
-		(at 205.74 66.04 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "663ecfa2-4ced-47ef-91fc-34d9803b7b50")
-		(property "Reference" "F1"
-			(at 205.74 59.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1A"
-			(at 205.74 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 205.74 67.818 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 205.74 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fuse"
-			(at 205.74 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "beb00be6-0b7f-47d1-a223-16c68cb5e742")
-		)
-		(pin "2"
-			(uuid "cb429646-09a6-4c1c-ad48-0312d444fb80")
-		)
-		(instances
-			(project "audio-receiver"
-				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/530bc118-39b2-4396-b6e6-c8750db23813"
-					(reference "F2")
-					(unit 1)
-				)
-				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/9e569c12-d8fb-4c67-ab1b-ca318ebeacbd"
-					(reference "F1")
 					(unit 1)
 				)
 			)
@@ -4097,7 +3987,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 142.24 95.25 0)
 			(effects
 				(font
@@ -4107,6 +3997,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 142.24 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser URL" ""
 			(at 142.24 95.25 0)
 			(effects
 				(font
@@ -4171,7 +4070,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 104.14 71.12 0)
 			(effects
 				(font
@@ -4181,6 +4080,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 104.14 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser URL" ""
 			(at 104.14 71.12 0)
 			(effects
 				(font
@@ -4315,7 +4223,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 160.02 91.44 0)
 			(effects
 				(font
@@ -4325,6 +4233,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 160.02 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser URL" ""
 			(at 160.02 91.44 0)
 			(effects
 				(font
@@ -4389,7 +4306,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Wurth-Elektronik/860020672010?qs=sGAEpiMZZMsh%252B1woXyUXj4jKQI6sNRw6%252B%2FnWw7D23Ww%3D"
 			(at 104.14 88.9 0)
 			(effects
 				(font
@@ -4399,6 +4316,15 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 104.14 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser URL" "https://www.mouser.com/ProductDetail/Nichicon/UVR1H101MPD1TD?qs=sGAEpiMZZMsh%252B1woXyUXj9Qfu%2FLgQWnHf9Zyy1TLY94%3D"
 			(at 104.14 88.9 0)
 			(effects
 				(font
@@ -4463,7 +4389,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/210/Class_I_Temperature_Compensation-2298228.pdf"
 			(at 208.28 116.84 0)
 			(effects
 				(font
@@ -4473,6 +4399,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 208.28 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser URL" "https://www.mouser.com/ProductDetail/Walsin/YV101103Z060HAND5P?qs=sGAEpiMZZMsh%252B1woXyUXj9Vc%2FsqQGnyVkbUw7FMjgKQ%3D"
 			(at 208.28 116.84 0)
 			(effects
 				(font
@@ -4607,7 +4542,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/308/1/1N914_D-3574539.pdf"
 			(at 124.46 97.79 0)
 			(effects
 				(font
@@ -4636,6 +4571,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 124.46 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser URL" "https://www.mouser.com/ProductDetail/onsemi-Fairchild/1N4148-T50R?qs=sGAEpiMZZMtbRapU8LlZD%252B6h%2FWulpAkrNJDKqwRgmZcB5SlWjKcc2w%3D%3D"
+			(at 124.46 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4699,7 +4643,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 71.12 125.73 0)
 			(effects
 				(font
@@ -4709,6 +4653,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 71.12 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser URL" ""
 			(at 71.12 125.73 0)
 			(effects
 				(font
@@ -4773,7 +4726,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://diotec.com/request/datasheet/uf4001.pdf"
 			(at 185.42 99.06 0)
 			(effects
 				(font
@@ -4802,6 +4755,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 185.42 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser URL" "https://www.mouser.com/ProductDetail/Diotec-Semiconductor/UF4004?qs=OlC7AqGiEDlRgKmeDlLF1Q%3D%3D"
+			(at 185.42 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4865,7 +4827,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/308/1/BC63916_D-1802688.pdf"
 			(at 121.92 118.11 0)
 			(effects
 				(font
@@ -4875,6 +4837,15 @@
 			)
 		)
 		(property "Description" "NPN bipolar junction transistor"
+			(at 121.92 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser URL" "https://www.mouser.com/ProductDetail/onsemi-Fairchild/BC63916-D74Z?qs=0lQeLiL1qybh%252B9xfKzhmFQ%3D%3D"
 			(at 121.92 118.11 0)
 			(effects
 				(font
@@ -4942,7 +4913,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 208.28 124.46 0)
 			(effects
 				(font
@@ -4952,6 +4923,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 208.28 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser URL" ""
 			(at 208.28 124.46 0)
 			(effects
 				(font
@@ -5013,7 +4993,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/977/e_YXJ-1601195.pdf"
 			(at 204.47 95.25 0)
 			(effects
 				(font
@@ -5024,6 +5004,15 @@
 		)
 		(property "Description" "Polarized capacitor"
 			(at 204.47 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser URL" "https://www.mouser.com/ProductDetail/Rubycon/35YXJ2200M16X25?qs=sGAEpiMZZMsh%252B1woXyUXj57M5zdvZVAFuY6LrCottNI%3D"
+			(at 204.47 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5085,7 +5074,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 95.25 66.04 0)
 			(effects
 				(font
@@ -5096,6 +5085,15 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 95.25 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser URL" ""
+			(at 95.25 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5159,7 +5157,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://diotec.com/request/datasheet/uf4001.pdf"
 			(at 185.42 91.44 0)
 			(effects
 				(font
@@ -5188,6 +5186,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 185.42 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser URL" "https://www.mouser.com/ProductDetail/Diotec-Semiconductor/UF4004?qs=OlC7AqGiEDlRgKmeDlLF1Q%3D%3D"
+			(at 185.42 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5321,7 +5328,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 157.48 107.95 0)
 			(effects
 				(font
@@ -5331,6 +5338,15 @@
 			)
 		)
 		(property "Description" "PNP bipolar junction transistor"
+			(at 157.48 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser URL" ""
 			(at 157.48 107.95 0)
 			(effects
 				(font
@@ -5398,7 +5414,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 86.36 125.73 0)
 			(effects
 				(font
@@ -5408,6 +5424,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 86.36 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser URL" ""
 			(at 86.36 125.73 0)
 			(effects
 				(font
@@ -5470,7 +5495,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 116.84 77.47 0)
 			(effects
 				(font
@@ -5481,6 +5506,15 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 116.84 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser URL" ""
+			(at 116.84 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5544,7 +5578,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 139.7 113.03 0)
 			(effects
 				(font
@@ -5554,6 +5588,15 @@
 			)
 		)
 		(property "Description" "PNP bipolar junction transistor"
+			(at 139.7 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser URL" ""
 			(at 139.7 113.03 0)
 			(effects
 				(font
@@ -5621,7 +5664,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/308/1/1N914_D-3574539.pdf"
 			(at 124.46 82.55 0)
 			(effects
 				(font
@@ -5650,6 +5693,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 124.46 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser URL" "https://www.mouser.com/ProductDetail/onsemi-Fairchild/1N4148-T50R?qs=sGAEpiMZZMtbRapU8LlZD%252B6h%2FWulpAkrNJDKqwRgmZcB5SlWjKcc2w%3D%3D"
+			(at 124.46 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5713,7 +5765,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/860010672011.pdf]"
 			(at 68.58 74.93 0)
 			(effects
 				(font
@@ -5723,6 +5775,15 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 68.58 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser URL" "https://www.mouser.com/ProductDetail/Wurth-Elektronik/860010672011?qs=sGAEpiMZZMsh%252B1woXyUXj4jKQI6sNRw6%2FzsPRxKesag%3D"
 			(at 68.58 74.93 0)
 			(effects
 				(font
@@ -5787,7 +5848,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 99.06 125.73 0)
 			(effects
 				(font
@@ -5797,6 +5858,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 99.06 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser URL" ""
 			(at 99.06 125.73 0)
 			(effects
 				(font
@@ -5861,7 +5931,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://diotec.com/request/datasheet/uf4001.pdf"
 			(at 171.45 99.06 0)
 			(effects
 				(font
@@ -5890,6 +5960,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 171.45 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser URL" "https://www.mouser.com/ProductDetail/Diotec-Semiconductor/UF4004?qs=OlC7AqGiEDlRgKmeDlLF1Q%3D%3D"
+			(at 171.45 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5953,7 +6032,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 55.88 114.3 0)
 			(effects
 				(font
@@ -5963,6 +6042,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 55.88 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser URL" ""
 			(at 55.88 114.3 0)
 			(effects
 				(font
@@ -6018,7 +6106,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" ""
 			(at 73.66 104.775 0)
 			(effects
 				(font
@@ -6029,7 +6117,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC556BTA-D.pdf"
+		(property "Datasheet" "https://diotec.com/request/datasheet/bc556.pdf"
 			(at 68.58 106.68 0)
 			(effects
 				(font
@@ -6040,6 +6128,15 @@
 			)
 		)
 		(property "Description" "0.1A Ic, 30V Vce, PNP Small Signal Transistor, TO-92"
+			(at 68.58 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser URL" "https://www.mouser.com/ProductDetail/Diotec-Semiconductor/BC559A?qs=OlC7AqGiEDlWVUSYP2ErFQ%3D%3D"
 			(at 68.58 106.68 0)
 			(effects
 				(font
