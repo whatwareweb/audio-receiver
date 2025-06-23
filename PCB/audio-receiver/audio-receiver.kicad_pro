@@ -589,6 +589,12 @@
           "label": "Mouser URL",
           "name": "Mouser URL",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Mouser PN",
+          "name": "Mouser PN",
+          "show": true
         }
       ],
       "filter_string": "",
@@ -648,7 +654,7 @@
       "amp-channel"
     ],
     [
-      "530bc118-39b2-4396-b6e6-c8750db23813",
+      "3cb49dc4-9ae5-46bc-9e6c-99bd9f7bd419",
       "amp-channel1"
     ]
   ],

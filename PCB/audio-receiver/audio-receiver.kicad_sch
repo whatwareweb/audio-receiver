@@ -5,255 +5,6 @@
 	(uuid "c5a9eefd-b86f-4174-bbc7-e8261656b786")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:Conn_01x04_Socket"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x04_Socket"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x04, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x04_Socket_1_1"
-				(polyline
-					(pts
-						(xy -1.27 2.54) (xy -0.508 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy -0.508 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -5.08) (xy -0.508 -5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 2.032)
-					(mid -0.5058 2.54)
-					(end 0 3.048)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -0.508)
-					(mid -0.5058 0)
-					(end 0 0.508)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -3.048)
-					(mid -0.5058 -2.54)
-					(end 0 -2.032)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -5.588)
-					(mid -0.5058 -5.08)
-					(end 0 -4.572)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:Screw_Terminal_01x02"
 			(pin_names
 				(offset 1.016)
@@ -677,6 +428,302 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector:Screw_Terminal_01x04"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Screw_Terminal_01x04"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "screw terminal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TerminalBlock*:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Screw_Terminal_01x04_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 2.8702) (xy 0.3302 2.032)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 -4.7498) (xy 0.3302 -5.588)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 3.048) (xy 0.508 2.2098)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 0.508) (xy 0.508 -0.3302)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 -4.572) (xy 0.508 -5.4102)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -5.08)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1151,28 +1198,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(rectangle
-		(start 25.4 49.53)
-		(end 50.8 82.55)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 568d57ae-7fba-42e8-a56a-017d365cef2e)
-	)
-	(text "To include in BOM\nNot placed on board\n\nInstall this 2A fuse in\nfuse holder"
-		(exclude_from_sim no)
-		(at 38.1 71.882 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "08cfc188-bad5-4bed-9de0-d119971de8ce")
-	)
 	(text "Left channel"
 		(exclude_from_sim no)
 		(at 121.412 53.086 0)
@@ -1182,6 +1207,16 @@
 			)
 		)
 		(uuid "7063248f-078b-4b69-a2f9-7ccc236edf73")
+	)
+	(text "Speaker outputs"
+		(exclude_from_sim no)
+		(at 205.74 99.314 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7446b30a-2b87-4c5b-9c43-c4c23887d9bf")
 	)
 	(text "Right channel"
 		(exclude_from_sim no)
@@ -1210,14 +1245,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eca31afc-d9a4-4763-b6c3-c973b93bece0")
-	)
-	(no_connect
-		(at 41.91 59.69)
-		(uuid "4412cd74-403c-4524-b219-5e51210b26c6")
-	)
-	(no_connect
-		(at 34.29 59.69)
-		(uuid "9c5e1fe0-eae1-4dd3-8dc2-128e62b737ab")
 	)
 	(wire
 		(pts
@@ -1547,6 +1574,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser PN" "504-1A5601 "
+			(at 59.69 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "06888b4c-4956-4be6-8a7a-88e61c526f6f")
 		)
@@ -1629,83 +1665,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Fuse")
-		(at 38.1 59.69 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4c2e9ce0-e96a-4ca1-8d3a-6fbaddb26b41")
-		(property "Reference" "F2"
-			(at 38.1 53.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2A"
-			(at 38.1 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 38.1 61.468 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/87/eaton_s500_glass_tube_fuses_data_sheet-1608830.pdf"
-			(at 38.1 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fuse"
-			(at 38.1 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser URL" "https://www.mouser.com/ProductDetail/Eaton-Electronics/BK1-S500-2-R?qs=9GX7soZQXxEC5%2FbW3phE%252Bg%3D%3D"
-			(at 38.1 59.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2ff724c6-874a-4ee2-b807-c63e0ea27b27")
-		)
-		(pin "1"
-			(uuid "fc208a57-a1e4-4bf2-97df-20a5b622afca")
-		)
-		(instances
-			(project "audio-receiver"
-				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786"
-					(reference "F2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
 		(at 138.43 54.61 0)
 		(unit 1)
@@ -1766,91 +1725,6 @@
 			(project ""
 				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786"
 					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x04_Socket")
-		(at 198.12 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8b267580-8589-45df-a725-8438fae6a790")
-		(property "Reference" "J2"
-			(at 199.39 87.6299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x04_Socket"
-			(at 199.39 90.1699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 198.12 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 198.12 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 198.12 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser URL" ""
-			(at 198.12 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "adf49b2f-5df4-4599-9aa3-de91a37af374")
-		)
-		(pin "3"
-			(uuid "9e79171b-ac9d-499c-9983-9c4b84f07f86")
-		)
-		(pin "1"
-			(uuid "7dff097d-6eec-4481-b704-cf41fcbcdae8")
-		)
-		(pin "2"
-			(uuid "065c6d2e-8d4d-499c-a435-a684285c4130")
-		)
-		(instances
-			(project ""
-				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786"
-					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -2016,7 +1890,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_3-G-5,08_1x03_P5.08mm_Horizontal"
 			(at 93.98 93.98 0)
 			(effects
 				(font
@@ -2025,7 +1899,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.phoenixcontact.com/en-us/products/pcb-header-mstba-25-3-g-508-1757255?type=pdf"
 			(at 93.98 93.98 0)
 			(effects
 				(font
@@ -2043,7 +1917,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser URL" ""
+		(property "Mouser URL" "https://www.mouser.com/ProductDetail/Phoenix-Contact/1757255?qs=uD%2FdkN7XIa0ez8xszzicKg%3D%3D"
+			(at 93.98 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser PN" "651-1757255 "
 			(at 93.98 93.98 0)
 			(effects
 				(font
@@ -2131,6 +2014,100 @@
 			(project ""
 				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x04")
+		(at 198.12 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b82a7941-8467-4ad8-854a-174d9685bd18")
+		(property "Reference" "J2"
+			(at 200.66 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x04"
+			(at 200.66 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_CUI:TerminalBlock_CUI_TB007-508-04_1x04_P5.08mm_Horizontal"
+			(at 198.12 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/1628/tb007_508-3511020.pdf"
+			(at 198.12 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 198.12 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser URL" "https://www.mouser.com/ProductDetail/Same-Sky/TB007-508-04BE?qs=vLWxofP3U2wnrmN2C1kFLw%3D%3D"
+			(at 198.12 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser PN" "490-TB007-508-04BE "
+			(at 198.12 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9df9ea0a-d734-4e10-b453-bffc3f776550")
+		)
+		(pin "1"
+			(uuid "1f40a999-f782-4288-841a-90f59ecf5917")
+		)
+		(pin "4"
+			(uuid "a136c840-5f6a-45da-8c11-4e420bf538c6")
+		)
+		(pin "3"
+			(uuid "46f45dd9-f528-4f45-9dbb-a36950a145a6")
+		)
+		(instances
+			(project ""
+				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -2362,7 +2339,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_CUI:TerminalBlock_CUI_TB007-508-02_1x02_P5.08mm_Horizontal"
 			(at 45.72 33.02 0)
 			(effects
 				(font
@@ -2371,7 +2348,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.cuidevices.com/product/resource/tb007-508.pdf"
 			(at 45.72 33.02 0)
 			(effects
 				(font
@@ -2389,7 +2366,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser URL" ""
+		(property "Mouser URL" "https://www.mouser.com/ProductDetail/Same-Sky/TB007-508-02BE?qs=vLWxofP3U2y6PFKAfCqKUQ%3D%3D"
+			(at 45.72 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser PN" "490-TB007-508-02BE "
 			(at 45.72 33.02 0)
 			(effects
 				(font
@@ -2493,7 +2479,7 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "530bc118-39b2-4396-b6e6-c8750db23813")
+		(uuid "3cb49dc4-9ae5-46bc-9e6c-99bd9f7bd419")
 		(property "Sheetname" "amp-channel1"
 			(at 132.588 113.03 0)
 			(effects
@@ -2514,7 +2500,7 @@
 		)
 		(pin "GND" input
 			(at 138.43 124.46 270)
-			(uuid "78526d25-a1f8-4968-9953-82d1a01cb8dc")
+			(uuid "5c9129a0-76fa-44a6-849b-8d22506941cb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2524,7 +2510,7 @@
 		)
 		(pin "VCC" input
 			(at 138.43 100.33 90)
-			(uuid "8d47685b-58fc-4df2-9d69-10a9c3984883")
+			(uuid "426b2f6f-0730-4d8f-90aa-7c32f8bc816e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2534,7 +2520,7 @@
 		)
 		(pin "VIN" input
 			(at 115.57 111.76 180)
-			(uuid "6cb18fdb-dec8-4bb6-acfd-da92cfc61188")
+			(uuid "87f797fb-a6ef-4c44-8664-bb5b711e422b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2542,9 +2528,9 @@
 				(justify left)
 			)
 		)
-		(pin "VOUT" input
+		(pin "VOUT" output
 			(at 161.29 111.76 0)
-			(uuid "63eec35f-9119-441f-9ec2-66b2bcd86488")
+			(uuid "66f3411b-b4b8-4d74-a535-6e9dc5ccb147")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2623,9 +2609,9 @@
 				(justify left)
 			)
 		)
-		(pin "VOUT" input
+		(pin "VOUT" output
 			(at 161.29 66.04 0)
-			(uuid "db010fc7-c238-426a-bf09-feb4bdfdd6ab")
+			(uuid "29b58fea-9c03-466f-9184-5683ccc12b9e")
 			(effects
 				(font
 					(size 1.27 1.27)

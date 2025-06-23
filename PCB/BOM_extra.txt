@@ -1,0 +1,7 @@
+heatsinks x4 -
+fuse holder x1 - https://www.mouser.com/ProductDetail/Eaton-Electronics/BK-1A5601?qs=sfCJykTDjbAGESUvg%2FlMZw%3D%3D
+fuses x2 - https://www.mouser.com/ProductDetail/Eaton-Electronics/BK1-S500-2-R?qs=9GX7soZQXxEC5%2FbW3phE%252Bg%3D%3D
+terminal posts -
+wire -
+3d filament -
+phoenix connectors internal -
