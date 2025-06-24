@@ -35,7 +35,7 @@ I got bored of looking for components, and decided to switch gears to start desi
 Time spent: 4.5 hours
 
 
-# June 22 - basically just data entry 😭
+# June 22 - basically just a ton of data entry 😭
 The first thing i did was to finish up on the BOM. Just more looking up products in Mouser, so pretty straightforward. One quirk I had to do was to pub another non-placed fuse holder in the schematic to appear on the BOM. A couple things of note were the resistor power values, I had to calculate those from the given example voltages in the schematic. For some of the higher-power resistors it was a little difficult to find resistors that fit the specs, so I had to learn a lot about Mouser's search features to find the resistors i needed.
 ![image](https://github.com/user-attachments/assets/eebd2d85-1adb-4742-867c-eaa6a9d3cfe4)
 
@@ -54,3 +54,40 @@ Next up was to get the footprints assigned for all of the parts, but before I co
 With that out of the way, I started looking up all the part numbers on Mouser to get the correct footprints for the part. However, while doing this, I found that the transistors did not have the proper pin assignments in the footprint for the 4 power output transistors, so I had to fix that. However, I didn't get to finish all the footprints in time, so I left that for tomorrow.
 
 Time spent: 6 hours
+
+# June 23  - 
+First I continued on assigning footprints, it was basically just resistors left. One of the annoying things with resistors and capacitors is that some of the model names are super long and just a huge pain to decode to figure out what the right footprint is. I would go off of the Mouser description, but I found several examples of that being incorrect.
+Another thing I found while assigning these footprints are that the component numbers of the resistors was somehow messed up when I copied over the hierarchical schematic, so I had to go in and fix that as well. I finally checked to make sure all the parts were in stock, and then it was time for pcb layout!
+
+![image](https://github.com/user-attachments/assets/7541d769-4069-49cd-9c0c-911a2dc8cfe1)
+
+When starting on the PCB layout, the very first thing I did was separate out the 2 channels and the screw terminals. This is so I could focus on layout of one audio channel, and then simply replicate that layout on the other channel. 
+![image](https://github.com/user-attachments/assets/f229d68f-9b7a-4ff6-ad0a-53d8e11e6b97)
+
+I started by laying out the large output to-220 transistors near where the edge of the PCB would be. This is because they will need a heatsink, which needs to be off the edge of the board. I also needed to space them a good bit apart as the 5w power resistors are extremely large. I then looked for the transistor heatsink I was going to use. A transistor heatsink is necessary in this case because the transistors can dissipate 6-8w depending on the load, which is a lot of heat. Due to this, I decided to go with the HSE-B381-04H heatsink, which dissipates a lot of heat for its small footprint, and it will do even better with a fan.
+
+Otherwise, I just laid out the components similar to how they are on the schematic. Since this is a low-frequency analog circuit, it is not super critical about stray inductances and capacitances (except for the input, but more on that later), so it's fine to lay out components wherever generally (within reason).
+
+![image](https://github.com/user-attachments/assets/a0ff537a-d2d7-4341-9d08-01a5e32a153b)
+
+
+One thing that I had to learn to do was how to duplicate the layout. Because I used hierarchical schematics to replicate the component layout, it is possible to just duplocate the layout as well, chich i learned how to do from this youtube tutorial. https://www.youtube.com/watch?v=qqdjBNkwqCc
+
+It was at this point that I realized that the layout i had made was terrible, because it was basically impossible to wire it up so that the input was not capacitively to the ouput. I tried to fix it, but i realized eventually that a new layout would be better, so I started over on the layout.
+
+While routing, there were several traces that needed significant current flow, so for these I had to make extra-large traces.
+![image](https://github.com/user-attachments/assets/d1eff19d-cd88-402d-800f-57c921cafc7c)
+
+Here is the schematic mostly finished with the replicated layout for the second channel:
+![image](https://github.com/user-attachments/assets/086fbeb4-0310-4c97-9f9d-aab5338b569a)
+
+After completing the layout, here is what the board looks like;
+![image](https://github.com/user-attachments/assets/43806eee-389f-4220-822c-315b5a223971)
+and here's the 3d view:
+![image](https://github.com/user-attachments/assets/6e937910-74af-4b4d-ae34-9aefaef173de)
+
+OK awesome, the amplifier PCB is finished. Now, I need to get started on the input board pcb. This board is going to be based around the CD4052B, with some supporting components and 4 RCA jack inputs. It will also have a jack for the microcontroller to connect to to switch the input.
+
+First thing is as always to get started on the schematic, so I added in the main IC. However, at this point I realized that it would be annoying to use this IC because it cannot output above and below the supply rails, so it would be better to use a different IC. Also, it has a pretty high resistance. However that's gonna have to wait for tomorrow because i'm out of time.
+
+Time spent: 7h
