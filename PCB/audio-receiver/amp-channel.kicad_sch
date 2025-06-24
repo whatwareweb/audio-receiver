@@ -3212,19 +3212,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "109dad30-93d3-4356-b804-4f41a50d4351")
+			(uuid "e083ea39-fa77-4fc6-8345-c5a3dc5bf329")
 		)
 		(pin "1"
-			(uuid "be0f327a-dddd-4ec7-8c32-7bc3c4eb221a")
+			(uuid "499e4529-bba0-4d81-b884-5c3e95e96913")
 		)
 		(instances
 			(project "audio-receiver"
-				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/3cb49dc4-9ae5-46bc-9e6c-99bd9f7bd419"
-					(reference "C14")
-					(unit 1)
-				)
 				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/9e569c12-d8fb-4c67-ab1b-ca318ebeacbd"
 					(reference "C8")
+					(unit 1)
+				)
+				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/a9bfe93b-3f85-42f5-a928-1d38b916329e"
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -3307,22 +3307,22 @@
 			)
 		)
 		(pin "3"
-			(uuid "1980efc2-e83e-468e-bdd4-06f2e2982793")
+			(uuid "0d56f4ae-bdb1-4bac-b464-7563735cbc0d")
 		)
 		(pin "1"
-			(uuid "532c7bc0-5e0f-4a3c-80bc-d57339403064")
+			(uuid "aa73d098-6fd4-44ee-a4de-57fb1fc4066c")
 		)
 		(pin "2"
-			(uuid "7cc6453d-3bb7-4d81-97ec-8eca014f6909")
+			(uuid "57413e37-6be4-4eb6-a13f-920feb4b8f73")
 		)
 		(instances
 			(project "audio-receiver"
-				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/3cb49dc4-9ae5-46bc-9e6c-99bd9f7bd419"
-					(reference "Q9")
-					(unit 1)
-				)
 				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/9e569c12-d8fb-4c67-ab1b-ca318ebeacbd"
 					(reference "Q3")
+					(unit 1)
+				)
+				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/a9bfe93b-3f85-42f5-a928-1d38b916329e"
+					(reference "Q9")
 					(unit 1)
 				)
 			)
@@ -3400,19 +3400,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "ec436ee2-6be2-4b7b-8b23-712a1297f37e")
+			(uuid "accdc852-dd44-4587-80e1-1ccf88abce5d")
 		)
 		(pin "1"
-			(uuid "0b192199-b5e2-4310-8ca7-45c1650c80e0")
+			(uuid "f25c2f14-2018-4d7e-9fda-800898d2b60b")
 		)
 		(instances
 			(project "audio-receiver"
-				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/3cb49dc4-9ae5-46bc-9e6c-99bd9f7bd419"
-					(reference "C9")
-					(unit 1)
-				)
 				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/9e569c12-d8fb-4c67-ab1b-ca318ebeacbd"
 					(reference "C1")
+					(unit 1)
+				)
+				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/a9bfe93b-3f85-42f5-a928-1d38b916329e"
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -3473,16 +3473,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "077a9ba5-36b1-49bc-9e8f-b4712d637f0d")
+			(uuid "94fd3266-d152-4181-a9e2-507a5b73a669")
 		)
 		(instances
 			(project "audio-receiver"
-				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/3cb49dc4-9ae5-46bc-9e6c-99bd9f7bd419"
-					(reference "#PWR07")
-					(unit 1)
-				)
 				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/9e569c12-d8fb-4c67-ab1b-ca318ebeacbd"
 					(reference "#PWR03")
+					(unit 1)
+				)
+				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/a9bfe93b-3f85-42f5-a928-1d38b916329e"
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -3516,7 +3516,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_Power_L25.0mm_W9.0mm_P27.94mm"
 			(at 161.036 99.314 90)
 			(effects
 				(font
@@ -3562,19 +3562,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "0cbd16d3-b841-41bd-a7de-fcddfde8ea8c")
+			(uuid "d1a55295-18e9-4e47-997e-d4e9924df927")
 		)
 		(pin "2"
-			(uuid "53dc4821-bfd5-434a-a64d-d098eaf387a1")
+			(uuid "9fe9c25a-d609-4cac-89a4-63e78f8f8ec1")
 		)
 		(instances
 			(project "audio-receiver"
-				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/3cb49dc4-9ae5-46bc-9e6c-99bd9f7bd419"
-					(reference "R25")
-					(unit 1)
-				)
 				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/9e569c12-d8fb-4c67-ab1b-ca318ebeacbd"
 					(reference "R10")
+					(unit 1)
+				)
+				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/a9bfe93b-3f85-42f5-a928-1d38b916329e"
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -3672,19 +3672,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "97822435-d2f5-49f4-bc83-461ac1744bb8")
+			(uuid "2d2641fb-52ba-4a1b-89e0-d4eeaba05bf9")
 		)
 		(pin "1"
-			(uuid "566fd7b8-b45d-4e4f-85c7-a36eb468c414")
+			(uuid "2dd44bb5-1f35-49c2-8423-864b0289d8eb")
 		)
 		(instances
 			(project "audio-receiver"
-				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/3cb49dc4-9ae5-46bc-9e6c-99bd9f7bd419"
-					(reference "D12")
-					(unit 1)
-				)
 				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/9e569c12-d8fb-4c67-ab1b-ca318ebeacbd"
 					(reference "D4")
+					(unit 1)
+				)
+				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/a9bfe93b-3f85-42f5-a928-1d38b916329e"
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -3764,22 +3764,22 @@
 			)
 		)
 		(pin "3"
-			(uuid "af2aaac2-0892-40e1-a60b-bdb3980f78b3")
+			(uuid "18d4d812-f902-43a2-b658-521cab932eaa")
 		)
 		(pin "1"
-			(uuid "eb65bded-8d10-402b-a9e9-4d6ece7d8b5e")
+			(uuid "d4872c7f-44d0-4afb-81be-95aa3924a9f5")
 		)
 		(pin "2"
-			(uuid "8b2ae5e6-240a-4460-a5a5-72f49bf02a4a")
+			(uuid "e1acc4b2-4e0e-4218-85aa-294c36b9dc27")
 		)
 		(instances
 			(project "audio-receiver"
-				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/3cb49dc4-9ae5-46bc-9e6c-99bd9f7bd419"
-					(reference "Q11")
-					(unit 1)
-				)
 				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/9e569c12-d8fb-4c67-ab1b-ca318ebeacbd"
 					(reference "Q5")
+					(unit 1)
+				)
+				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/a9bfe93b-3f85-42f5-a928-1d38b916329e"
+					(reference "Q11")
 					(unit 1)
 				)
 			)
@@ -3856,19 +3856,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "336fffb4-4dab-4a1b-8869-83cae14f450c")
+			(uuid "1ef411d0-1f3c-4c13-aead-c2c0f7bc96af")
 		)
 		(pin "1"
-			(uuid "a3f5d9a1-1fb4-48be-957a-305b93ecb712")
+			(uuid "f4792f75-349a-4c9c-a720-33b5c79fcaea")
 		)
 		(instances
 			(project "audio-receiver"
-				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/3cb49dc4-9ae5-46bc-9e6c-99bd9f7bd419"
-					(reference "C13")
-					(unit 1)
-				)
 				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/9e569c12-d8fb-4c67-ab1b-ca318ebeacbd"
 					(reference "C3")
+					(unit 1)
+				)
+				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/a9bfe93b-3f85-42f5-a928-1d38b916329e"
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -3948,19 +3948,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "60b7342a-9c7f-4c81-9750-1cfc455b0a5d")
+			(uuid "dd940793-2d55-4d76-9898-e0b00a57e782")
 		)
 		(pin "1"
-			(uuid "e49a79d9-5164-4489-83ab-66411be9cbd7")
+			(uuid "6813d0c3-0698-4647-9baa-1fc2bd6af143")
 		)
 		(instances
 			(project "audio-receiver"
-				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/3cb49dc4-9ae5-46bc-9e6c-99bd9f7bd419"
-					(reference "C11")
-					(unit 1)
-				)
 				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/9e569c12-d8fb-4c67-ab1b-ca318ebeacbd"
 					(reference "C2")
+					(unit 1)
+				)
+				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/a9bfe93b-3f85-42f5-a928-1d38b916329e"
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -4058,19 +4058,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "552d68c1-0ef0-46ae-a005-dc1903c8a636")
+			(uuid "0dc86851-8ac3-4b34-b100-ebf7bf70e38f")
 		)
 		(pin "1"
-			(uuid "29772412-5c98-4fc1-803b-68c8f483bb8b")
+			(uuid "34eb5809-1e0d-4e56-bf4f-9d37d6d0cba0")
 		)
 		(instances
 			(project "audio-receiver"
-				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/3cb49dc4-9ae5-46bc-9e6c-99bd9f7bd419"
-					(reference "D10")
-					(unit 1)
-				)
 				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/9e569c12-d8fb-4c67-ab1b-ca318ebeacbd"
 					(reference "D2")
+					(unit 1)
+				)
+				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/a9bfe93b-3f85-42f5-a928-1d38b916329e"
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -4102,7 +4102,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 96.774 99.314 90)
 			(effects
 				(font
@@ -4148,19 +4148,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "0d1b1c37-5d0f-443e-8efa-fb64d9c3715d")
+			(uuid "a24d5e28-6726-4850-aaa1-d48c8bea9ba6")
 		)
 		(pin "1"
-			(uuid "e521135b-cb79-4eba-9bcf-066e11c55b0a")
+			(uuid "4f1fc8b1-5eda-466e-bd83-d197d4e64bbb")
 		)
 		(instances
 			(project "audio-receiver"
-				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/3cb49dc4-9ae5-46bc-9e6c-99bd9f7bd419"
-					(reference "R19")
-					(unit 1)
-				)
 				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/9e569c12-d8fb-4c67-ab1b-ca318ebeacbd"
 					(reference "R3")
+					(unit 1)
+				)
+				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/a9bfe93b-3f85-42f5-a928-1d38b916329e"
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -4221,16 +4221,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "67bf7a08-dd6b-46a0-b5b4-a3760b16ec7c")
+			(uuid "9d5d6036-92ac-4dcc-a3f4-11ca2df83a24")
 		)
 		(instances
 			(project "audio-receiver"
-				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/3cb49dc4-9ae5-46bc-9e6c-99bd9f7bd419"
-					(reference "#PWR09")
-					(unit 1)
-				)
 				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/9e569c12-d8fb-4c67-ab1b-ca318ebeacbd"
 					(reference "#PWR01")
+					(unit 1)
+				)
+				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/a9bfe93b-3f85-42f5-a928-1d38b916329e"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -4264,7 +4264,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 56.896 99.314 90)
 			(effects
 				(font
@@ -4310,19 +4310,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "fb3cf916-945c-445f-9ac3-e061e8ba1467")
+			(uuid "f840ba4a-9f1e-45bf-aaae-64c0e05c4aac")
 		)
 		(pin "2"
-			(uuid "84457ccf-ae0c-4e00-b5a2-b899d0c7da63")
+			(uuid "d7e12eef-5dd6-4c28-b0e9-d42747c52f01")
 		)
 		(instances
 			(project "audio-receiver"
-				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/3cb49dc4-9ae5-46bc-9e6c-99bd9f7bd419"
-					(reference "R14")
-					(unit 1)
-				)
 				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/9e569c12-d8fb-4c67-ab1b-ca318ebeacbd"
 					(reference "R1")
+					(unit 1)
+				)
+				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/a9bfe93b-3f85-42f5-a928-1d38b916329e"
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -4420,19 +4420,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "46abd6cc-4cd0-4928-b44c-46afdbb5bc56")
+			(uuid "9760425f-b750-42e5-8fa9-02b0fcac7e4e")
 		)
 		(pin "1"
-			(uuid "ab627dde-8a48-428f-99ce-76f6febd9ea0")
+			(uuid "8719a07b-8310-4b55-9140-acb7491cdce8")
 		)
 		(instances
 			(project "audio-receiver"
-				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/3cb49dc4-9ae5-46bc-9e6c-99bd9f7bd419"
-					(reference "D13")
-					(unit 1)
-				)
 				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/9e569c12-d8fb-4c67-ab1b-ca318ebeacbd"
 					(reference "D5")
+					(unit 1)
+				)
+				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/a9bfe93b-3f85-42f5-a928-1d38b916329e"
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -4493,16 +4493,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "730caa23-997b-4c8a-9949-3d08777bc183")
+			(uuid "a6b36228-4176-4b2b-a81d-9f9547e525a9")
 		)
 		(instances
 			(project "audio-receiver"
-				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/3cb49dc4-9ae5-46bc-9e6c-99bd9f7bd419"
-					(reference "#PWR012")
-					(unit 1)
-				)
 				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/9e569c12-d8fb-4c67-ab1b-ca318ebeacbd"
 					(reference "#PWR06")
+					(unit 1)
+				)
+				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/a9bfe93b-3f85-42f5-a928-1d38b916329e"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -4535,7 +4535,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 143.256 95.504 90)
 			(effects
 				(font
@@ -4581,19 +4581,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "dbbe9167-3875-4b83-b439-b4a4c1630061")
+			(uuid "95c8b06d-9ff0-4505-a44a-58a0822fb649")
 		)
 		(pin "2"
-			(uuid "948006c2-646e-4b15-94e7-82e2a69d4ba5")
+			(uuid "e3866002-df77-4881-8b14-dfd01223b819")
 		)
 		(instances
 			(project "audio-receiver"
-				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/3cb49dc4-9ae5-46bc-9e6c-99bd9f7bd419"
-					(reference "R23")
-					(unit 1)
-				)
 				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/9e569c12-d8fb-4c67-ab1b-ca318ebeacbd"
 					(reference "R8")
+					(unit 1)
+				)
+				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/a9bfe93b-3f85-42f5-a928-1d38b916329e"
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -4676,22 +4676,22 @@
 			)
 		)
 		(pin "3"
-			(uuid "d1e98740-494c-47c2-8ce5-50450c9380d5")
+			(uuid "95752c56-3f51-4278-a3d9-1f69679cea4d")
 		)
 		(pin "1"
-			(uuid "272166e2-420d-431f-9a71-de4e7fe5e0fe")
+			(uuid "2278631d-082f-4dc4-84ef-7e081e53acc3")
 		)
 		(pin "2"
-			(uuid "69107103-134c-4425-bf42-99b5fa115047")
+			(uuid "373cb3f0-aea7-49f2-aeb3-358a68f3f1aa")
 		)
 		(instances
 			(project "audio-receiver"
-				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/3cb49dc4-9ae5-46bc-9e6c-99bd9f7bd419"
-					(reference "Q8")
-					(unit 1)
-				)
 				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/9e569c12-d8fb-4c67-ab1b-ca318ebeacbd"
 					(reference "Q2")
+					(unit 1)
+				)
+				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/a9bfe93b-3f85-42f5-a928-1d38b916329e"
+					(reference "Q8")
 					(unit 1)
 				)
 			)
@@ -4725,7 +4725,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 105.156 71.374 90)
 			(effects
 				(font
@@ -4771,19 +4771,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "ee80296a-34b8-497a-806a-75f959c443a9")
+			(uuid "3eed224d-7db2-48eb-aa45-72db00a2fd10")
 		)
 		(pin "1"
-			(uuid "59ca5fe7-cbae-4244-b8cf-8e6224476d49")
+			(uuid "e1e0381c-f7a3-4697-b598-1d9542e7c752")
 		)
 		(instances
 			(project "audio-receiver"
-				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/3cb49dc4-9ae5-46bc-9e6c-99bd9f7bd419"
-					(reference "R21")
-					(unit 1)
-				)
 				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/9e569c12-d8fb-4c67-ab1b-ca318ebeacbd"
 					(reference "R6")
+					(unit 1)
+				)
+				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/a9bfe93b-3f85-42f5-a928-1d38b916329e"
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -4844,16 +4844,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "fddf3a35-333a-4be4-aaf8-843c51bb7163")
+			(uuid "5ffc29be-6095-425d-bb8d-0d5d28a2aaab")
 		)
 		(instances
 			(project "audio-receiver"
-				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/3cb49dc4-9ae5-46bc-9e6c-99bd9f7bd419"
-					(reference "#PWR011")
-					(unit 1)
-				)
 				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/9e569c12-d8fb-4c67-ab1b-ca318ebeacbd"
 					(reference "#PWR05")
+					(unit 1)
+				)
+				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/a9bfe93b-3f85-42f5-a928-1d38b916329e"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -4887,7 +4887,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_Power_L25.0mm_W9.0mm_P27.94mm"
 			(at 161.036 91.694 90)
 			(effects
 				(font
@@ -4933,19 +4933,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "2e0f0c7f-43b9-40c0-8a99-69d772cb582c")
+			(uuid "f08196b5-de78-4c60-a32c-9d6d3e8995b7")
 		)
 		(pin "2"
-			(uuid "87f3db25-0a2b-4ef3-a8cf-fac6609b4e34")
+			(uuid "df6b7c92-2bf3-4932-83c8-206507aa2c8d")
 		)
 		(instances
 			(project "audio-receiver"
-				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/3cb49dc4-9ae5-46bc-9e6c-99bd9f7bd419"
-					(reference "R24")
-					(unit 1)
-				)
 				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/9e569c12-d8fb-4c67-ab1b-ca318ebeacbd"
 					(reference "R9")
+					(unit 1)
+				)
+				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/a9bfe93b-3f85-42f5-a928-1d38b916329e"
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -5025,19 +5025,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "68e9a4e0-ea9e-439d-a00b-35b0240bdb35")
+			(uuid "137cb79b-611f-4f1d-8973-741bb42857b7")
 		)
 		(pin "1"
-			(uuid "b568c5f8-bf18-4f9f-8398-43387877f29e")
+			(uuid "dc394bb9-02fb-414c-86c1-44f9495c3760")
 		)
 		(instances
 			(project "audio-receiver"
-				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/3cb49dc4-9ae5-46bc-9e6c-99bd9f7bd419"
-					(reference "C12")
-					(unit 1)
-				)
 				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/9e569c12-d8fb-4c67-ab1b-ca318ebeacbd"
 					(reference "C4")
+					(unit 1)
+				)
+				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/a9bfe93b-3f85-42f5-a928-1d38b916329e"
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -5117,19 +5117,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "5d80d778-9b86-47ca-a9f7-0ebc92b62191")
+			(uuid "13c843e4-ebf6-4303-954f-73aeaa4347ea")
 		)
 		(pin "1"
-			(uuid "d4cc2a51-60fd-4df4-b53f-d947cd18d6b6")
+			(uuid "c06147fa-5bd0-4dd5-8bbd-d98437c39c77")
 		)
 		(instances
 			(project "audio-receiver"
-				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/3cb49dc4-9ae5-46bc-9e6c-99bd9f7bd419"
-					(reference "C16")
-					(unit 1)
-				)
 				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/9e569c12-d8fb-4c67-ab1b-ca318ebeacbd"
 					(reference "C7")
+					(unit 1)
+				)
+				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/a9bfe93b-3f85-42f5-a928-1d38b916329e"
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -5190,16 +5190,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "04cc855e-6d41-4a62-bab5-102282d478c0")
+			(uuid "33118f17-b148-4a30-a0ed-2387006378a0")
 		)
 		(instances
 			(project "audio-receiver"
-				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/3cb49dc4-9ae5-46bc-9e6c-99bd9f7bd419"
-					(reference "#PWR08")
-					(unit 1)
-				)
 				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/9e569c12-d8fb-4c67-ab1b-ca318ebeacbd"
 					(reference "#PWR04")
+					(unit 1)
+				)
+				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/a9bfe93b-3f85-42f5-a928-1d38b916329e"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -5297,19 +5297,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "45323f8d-783b-4dcd-ae75-3b135ba98625")
+			(uuid "1e8cbf7f-ca94-4850-b2ab-e9406f8ab18d")
 		)
 		(pin "1"
-			(uuid "e55edc4e-200c-4ae1-bd50-1421716e6f87")
+			(uuid "720d1f5c-72a4-449e-9ad1-375ef81bd2f6")
 		)
 		(instances
 			(project "audio-receiver"
-				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/3cb49dc4-9ae5-46bc-9e6c-99bd9f7bd419"
-					(reference "D11")
-					(unit 1)
-				)
 				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/9e569c12-d8fb-4c67-ab1b-ca318ebeacbd"
 					(reference "D3")
+					(unit 1)
+				)
+				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/a9bfe93b-3f85-42f5-a928-1d38b916329e"
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -5343,7 +5343,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 72.136 125.984 90)
 			(effects
 				(font
@@ -5389,19 +5389,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "c73b069e-06b8-4f84-99a6-395d2ac53b54")
+			(uuid "35fcb892-a12a-4d4f-b104-b6887195b149")
 		)
 		(pin "2"
-			(uuid "3564deef-a4c2-4dff-9567-ebb56608b9f8")
+			(uuid "41af4398-5cdf-4caa-b3d9-79888108cfce")
 		)
 		(instances
 			(project "audio-receiver"
-				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/3cb49dc4-9ae5-46bc-9e6c-99bd9f7bd419"
-					(reference "R16")
-					(unit 1)
-				)
 				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/9e569c12-d8fb-4c67-ab1b-ca318ebeacbd"
 					(reference "R5")
+					(unit 1)
+				)
+				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/a9bfe93b-3f85-42f5-a928-1d38b916329e"
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -5484,22 +5484,22 @@
 			)
 		)
 		(pin "1"
-			(uuid "6fab771b-d131-4b81-aff4-ccd1930828ad")
+			(uuid "6ffb469f-86da-4bbe-874f-1f650f8fdd4a")
 		)
 		(pin "2"
-			(uuid "901408dc-55d7-4a45-a8db-6e8b75c68fbd")
+			(uuid "4cf1156d-7003-4ad9-b884-33e7e652b31d")
 		)
 		(pin "3"
-			(uuid "2cd8e1a3-6bb7-4e4a-9d4a-643854bc78ee")
+			(uuid "b8f88887-4926-443e-a476-84ebdba76fab")
 		)
 		(instances
 			(project "audio-receiver"
-				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/3cb49dc4-9ae5-46bc-9e6c-99bd9f7bd419"
-					(reference "Q10")
-					(unit 1)
-				)
 				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/9e569c12-d8fb-4c67-ab1b-ca318ebeacbd"
 					(reference "Q4")
+					(unit 1)
+				)
+				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/a9bfe93b-3f85-42f5-a928-1d38b916329e"
+					(reference "Q10")
 					(unit 1)
 				)
 			)
@@ -5597,19 +5597,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "60d4a463-e51e-463c-8ab1-d86c43561128")
+			(uuid "0dd98653-2f61-4c2a-a817-7283dfc68b4b")
 		)
 		(pin "1"
-			(uuid "f72c1dea-8a5d-479b-acf0-6243452b02b9")
+			(uuid "d9a5c8ee-dff2-457a-8759-a6cdcf2b9bf4")
 		)
 		(instances
 			(project "audio-receiver"
-				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/3cb49dc4-9ae5-46bc-9e6c-99bd9f7bd419"
-					(reference "D16")
-					(unit 1)
-				)
 				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/9e569c12-d8fb-4c67-ab1b-ca318ebeacbd"
 					(reference "D8")
+					(unit 1)
+				)
+				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/a9bfe93b-3f85-42f5-a928-1d38b916329e"
+					(reference "D16")
 					(unit 1)
 				)
 			)
@@ -5643,7 +5643,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 209.296 124.714 90)
 			(effects
 				(font
@@ -5689,19 +5689,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "1911ca5b-655a-45e6-9ac7-58b552baef4a")
+			(uuid "1748be58-ad05-4d5b-9337-5ea3e966399d")
 		)
 		(pin "1"
-			(uuid "999a9006-6d03-4501-880a-7fef37efcdee")
+			(uuid "80d921ca-eab9-4e0f-bfcb-8fddf433d9b1")
 		)
 		(instances
 			(project "audio-receiver"
-				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/3cb49dc4-9ae5-46bc-9e6c-99bd9f7bd419"
-					(reference "R26")
-					(unit 1)
-				)
 				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/9e569c12-d8fb-4c67-ab1b-ca318ebeacbd"
 					(reference "R13")
+					(unit 1)
+				)
+				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/a9bfe93b-3f85-42f5-a928-1d38b916329e"
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -5778,19 +5778,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "705dad54-e7dd-4205-b6a5-2b0866bf74ef")
+			(uuid "1991a7db-7030-4cf1-8a7a-3470fb7e8edd")
 		)
 		(pin "1"
-			(uuid "b75d3b7c-a1e2-49bb-958a-3a1c64ecb865")
+			(uuid "5771803f-feec-4881-8fae-228ff35cb83c")
 		)
 		(instances
 			(project "audio-receiver"
-				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/3cb49dc4-9ae5-46bc-9e6c-99bd9f7bd419"
-					(reference "C15")
-					(unit 1)
-				)
 				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/9e569c12-d8fb-4c67-ab1b-ca318ebeacbd"
 					(reference "C5")
+					(unit 1)
+				)
+				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/a9bfe93b-3f85-42f5-a928-1d38b916329e"
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -5822,7 +5822,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 95.504 65.024 90)
 			(effects
 				(font
@@ -5868,19 +5868,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "3ec7a40a-3b92-4f88-9a17-e32336b3388d")
+			(uuid "64e66ba9-5a40-43a2-a3c5-54e5e29aa444")
 		)
 		(pin "2"
-			(uuid "befa519a-a394-4115-ac62-e1673385d419")
+			(uuid "e1caaf52-99d9-4570-a427-22d9a3e5bcc6")
 		)
 		(instances
 			(project "audio-receiver"
-				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/3cb49dc4-9ae5-46bc-9e6c-99bd9f7bd419"
-					(reference "R18")
-					(unit 1)
-				)
 				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/9e569c12-d8fb-4c67-ab1b-ca318ebeacbd"
 					(reference "R11")
+					(unit 1)
+				)
+				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/a9bfe93b-3f85-42f5-a928-1d38b916329e"
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -5978,19 +5978,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "907091b9-20b3-43c6-9cd9-7475c8c08a25")
+			(uuid "cbf9afcc-8f57-47a7-a33d-14699b2c13b0")
 		)
 		(pin "1"
-			(uuid "12d6ffa0-6f39-42cb-9fee-ab49d81184f4")
+			(uuid "a74afe13-79c8-4308-b3aa-7ab07314bfab")
 		)
 		(instances
 			(project "audio-receiver"
-				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/3cb49dc4-9ae5-46bc-9e6c-99bd9f7bd419"
-					(reference "D15")
-					(unit 1)
-				)
 				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/9e569c12-d8fb-4c67-ab1b-ca318ebeacbd"
 					(reference "D7")
+					(unit 1)
+				)
+				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/a9bfe93b-3f85-42f5-a928-1d38b916329e"
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -6051,16 +6051,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "3f9fdd0b-3de3-4989-a255-7d0b05496c2c")
+			(uuid "5663437d-821f-43f6-8e8a-a01568c5de39")
 		)
 		(instances
 			(project "audio-receiver"
-				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/3cb49dc4-9ae5-46bc-9e6c-99bd9f7bd419"
-					(reference "#PWR010")
-					(unit 1)
-				)
 				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/9e569c12-d8fb-4c67-ab1b-ca318ebeacbd"
 					(reference "#PWR02")
+					(unit 1)
+				)
+				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/a9bfe93b-3f85-42f5-a928-1d38b916329e"
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -6140,22 +6140,22 @@
 			)
 		)
 		(pin "1"
-			(uuid "8e6b4ce9-f339-4289-b852-e2f8e9d5afdf")
+			(uuid "1fba3973-314d-4197-bd96-bb8e1bdb867f")
 		)
 		(pin "2"
-			(uuid "345650c3-6828-4363-8594-149a24cfe1d9")
+			(uuid "121be324-cca8-433d-82e0-48081ff50e5e")
 		)
 		(pin "3"
-			(uuid "1e3ca305-5af6-4916-9f3a-aad1a044aaa5")
+			(uuid "92a6face-ae4c-4ef4-b1b5-ea8341ff9cdd")
 		)
 		(instances
 			(project "audio-receiver"
-				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/3cb49dc4-9ae5-46bc-9e6c-99bd9f7bd419"
-					(reference "Q12")
-					(unit 1)
-				)
 				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/9e569c12-d8fb-4c67-ab1b-ca318ebeacbd"
 					(reference "Q6")
+					(unit 1)
+				)
+				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/a9bfe93b-3f85-42f5-a928-1d38b916329e"
+					(reference "Q12")
 					(unit 1)
 				)
 			)
@@ -6189,7 +6189,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 87.376 125.984 90)
 			(effects
 				(font
@@ -6235,19 +6235,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "bc5ce53f-294d-434d-858c-64c63821e7e4")
+			(uuid "ded73e0c-a6b1-4a3c-862a-2c32814bbdcb")
 		)
 		(pin "1"
-			(uuid "c96e55a8-2935-4420-8f96-569a2b918c05")
+			(uuid "bb4008aa-8968-4dac-b980-5d1720aeb47f")
 		)
 		(instances
 			(project "audio-receiver"
-				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/3cb49dc4-9ae5-46bc-9e6c-99bd9f7bd419"
-					(reference "R17")
-					(unit 1)
-				)
 				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/9e569c12-d8fb-4c67-ab1b-ca318ebeacbd"
 					(reference "R4")
+					(unit 1)
+				)
+				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/a9bfe93b-3f85-42f5-a928-1d38b916329e"
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -6279,7 +6279,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 117.094 76.454 90)
 			(effects
 				(font
@@ -6325,19 +6325,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "a2ed7f14-6cb8-4b47-ba0c-99fd35969047")
+			(uuid "4e2a0d02-a83c-4662-810c-2fcd51c62f94")
 		)
 		(pin "2"
-			(uuid "b044dc1d-5fa7-4e06-a09a-f8ad21fb3523")
+			(uuid "52801064-1ed2-4f7e-a0a2-885793d13d50")
 		)
 		(instances
 			(project "audio-receiver"
-				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/3cb49dc4-9ae5-46bc-9e6c-99bd9f7bd419"
-					(reference "R22")
-					(unit 1)
-				)
 				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/9e569c12-d8fb-4c67-ab1b-ca318ebeacbd"
 					(reference "R7")
+					(unit 1)
+				)
+				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/a9bfe93b-3f85-42f5-a928-1d38b916329e"
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -6435,19 +6435,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "d2d8068d-475e-40cb-aa67-a335158a1423")
+			(uuid "5be95be5-03af-4158-a850-d2269b9678ba")
 		)
 		(pin "1"
-			(uuid "532e7be2-9fb2-4dae-b400-47fdd02e1ef9")
+			(uuid "bbade7e6-0cce-4121-949a-553cea6857cd")
 		)
 		(instances
 			(project "audio-receiver"
-				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/3cb49dc4-9ae5-46bc-9e6c-99bd9f7bd419"
-					(reference "D9")
-					(unit 1)
-				)
 				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/9e569c12-d8fb-4c67-ab1b-ca318ebeacbd"
 					(reference "D1")
+					(unit 1)
+				)
+				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/a9bfe93b-3f85-42f5-a928-1d38b916329e"
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -6527,19 +6527,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "80b4adc2-1d32-4a25-b2aa-49a2fe4538f5")
+			(uuid "714b9868-9d09-4036-97de-500b8309d815")
 		)
 		(pin "2"
-			(uuid "49464e3f-b901-407f-b528-77027f05dde5")
+			(uuid "39955d23-b653-41d9-833b-1baec3d4fc96")
 		)
 		(instances
 			(project "audio-receiver"
-				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/3cb49dc4-9ae5-46bc-9e6c-99bd9f7bd419"
-					(reference "C10")
-					(unit 1)
-				)
 				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/9e569c12-d8fb-4c67-ab1b-ca318ebeacbd"
 					(reference "C6")
+					(unit 1)
+				)
+				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/a9bfe93b-3f85-42f5-a928-1d38b916329e"
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -6573,7 +6573,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 100.076 125.984 90)
 			(effects
 				(font
@@ -6619,19 +6619,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "f3065ce1-ea98-4c3c-b2e1-d1699597a407")
+			(uuid "427b2364-9fcf-4821-b26a-32a476b0a163")
 		)
 		(pin "1"
-			(uuid "c4d48d6d-2116-47ae-b891-8cee018884ca")
+			(uuid "6c7bd8bf-6c7e-45cb-854c-f0b154e6ceb6")
 		)
 		(instances
 			(project "audio-receiver"
-				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/3cb49dc4-9ae5-46bc-9e6c-99bd9f7bd419"
-					(reference "R20")
-					(unit 1)
-				)
 				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/9e569c12-d8fb-4c67-ab1b-ca318ebeacbd"
 					(reference "R12")
+					(unit 1)
+				)
+				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/a9bfe93b-3f85-42f5-a928-1d38b916329e"
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -6729,19 +6729,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "6556050d-c691-4d53-825c-fa2ec0394a35")
+			(uuid "2911d091-c7a0-4b95-9ddd-0e457ef4a2ba")
 		)
 		(pin "1"
-			(uuid "fb684330-2c53-4326-8f54-602c5bcf0e9e")
+			(uuid "ca7cae81-374b-4cce-bc6c-485b13ee2309")
 		)
 		(instances
 			(project "audio-receiver"
-				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/3cb49dc4-9ae5-46bc-9e6c-99bd9f7bd419"
-					(reference "D14")
-					(unit 1)
-				)
 				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/9e569c12-d8fb-4c67-ab1b-ca318ebeacbd"
 					(reference "D6")
+					(unit 1)
+				)
+				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/a9bfe93b-3f85-42f5-a928-1d38b916329e"
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -6775,7 +6775,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 56.896 114.554 90)
 			(effects
 				(font
@@ -6821,19 +6821,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "ac8985d3-67e1-4b02-a5af-97336f0b898d")
+			(uuid "7fdd034e-148e-4a92-aa1c-d6a490c654fa")
 		)
 		(pin "1"
-			(uuid "0f3ebfcf-d677-4bef-9743-0c8dad3becfa")
+			(uuid "02f63fc7-463b-492c-aa42-4aa6be5e3a66")
 		)
 		(instances
 			(project "audio-receiver"
-				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/3cb49dc4-9ae5-46bc-9e6c-99bd9f7bd419"
-					(reference "R15")
-					(unit 1)
-				)
 				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/9e569c12-d8fb-4c67-ab1b-ca318ebeacbd"
 					(reference "R2")
+					(unit 1)
+				)
+				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/a9bfe93b-3f85-42f5-a928-1d38b916329e"
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -6916,22 +6916,22 @@
 			)
 		)
 		(pin "1"
-			(uuid "26fb5ff6-166a-4c2b-972a-ac6f363df8e3")
+			(uuid "c16d9995-b095-425b-a31c-af07e24bc0ac")
 		)
 		(pin "3"
-			(uuid "738b4243-1bef-40f0-9148-0e068c584215")
+			(uuid "982f056b-fa33-4875-ad8e-652beb1cf170")
 		)
 		(pin "2"
-			(uuid "1bad95a8-8393-465a-a8cb-68196c739c58")
+			(uuid "02882677-2837-4653-ab5d-d6a61e238a0a")
 		)
 		(instances
 			(project "audio-receiver"
-				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/3cb49dc4-9ae5-46bc-9e6c-99bd9f7bd419"
-					(reference "Q7")
-					(unit 1)
-				)
 				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/9e569c12-d8fb-4c67-ab1b-ca318ebeacbd"
 					(reference "Q1")
+					(unit 1)
+				)
+				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786/a9bfe93b-3f85-42f5-a928-1d38b916329e"
+					(reference "Q7")
 					(unit 1)
 				)
 			)

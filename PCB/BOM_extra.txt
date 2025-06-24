@@ -1,7 +1,14 @@
-heatsinks x4 -
+heatsinks x4 - https://www.mouser.com/ProductDetail/Same-Sky/HSS-B20-NP-12?qs=u4fy%2FsgLU9Mva%2Fp9%252ByZBdw%3D%3D
+m3 bolt x4 -
+m3 nut x4 -
 fuse holder x1 - https://www.mouser.com/ProductDetail/Eaton-Electronics/BK-1A5601?qs=sfCJykTDjbAGESUvg%2FlMZw%3D%3D
 fuses x2 - https://www.mouser.com/ProductDetail/Eaton-Electronics/BK1-S500-2-R?qs=9GX7soZQXxEC5%2FbW3phE%252Bg%3D%3D
 terminal posts -
 wire -
 3d filament -
 phoenix connectors internal -
+fan - noctua nf-a4x20?
+ac power lead -
+dip16 socket -
+36v psu
+5v psu

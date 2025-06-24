@@ -2466,87 +2466,6 @@
 		)
 	)
 	(sheet
-		(at 115.57 100.33)
-		(size 45.72 24.13)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "3cb49dc4-9ae5-46bc-9e6c-99bd9f7bd419")
-		(property "Sheetname" "amp-channel1"
-			(at 132.588 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "amp-channel.kicad_sch"
-			(at 124.46 113.284 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "GND" input
-			(at 138.43 124.46 270)
-			(uuid "5c9129a0-76fa-44a6-849b-8d22506941cb")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "VCC" input
-			(at 138.43 100.33 90)
-			(uuid "426b2f6f-0730-4d8f-90aa-7c32f8bc816e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "VIN" input
-			(at 115.57 111.76 180)
-			(uuid "87f797fb-a6ef-4c44-8664-bb5b711e422b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "VOUT" output
-			(at 161.29 111.76 0)
-			(uuid "66f3411b-b4b8-4d74-a535-6e9dc5ccb147")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "audio-receiver"
-				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786"
-					(page "3")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 115.57 54.61)
 		(size 45.72 24.13)
 		(exclude_from_sim no)
@@ -2623,6 +2542,87 @@
 			(project "audio-receiver"
 				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 115.57 100.33)
+		(size 45.72 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a9bfe93b-3f85-42f5-a928-1d38b916329e")
+		(property "Sheetname" "amp-channel1"
+			(at 132.588 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "amp-channel.kicad_sch"
+			(at 124.46 113.284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GND" input
+			(at 138.43 124.46 270)
+			(uuid "aec87f45-02ca-47cb-bf58-e17bfa743e99")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VCC" input
+			(at 138.43 100.33 90)
+			(uuid "26eb816d-51ff-44dc-877f-aa9a2c3e9fa3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VIN" input
+			(at 115.57 111.76 180)
+			(uuid "d6a711cd-3921-4844-8ac1-2592e11de241")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VOUT" output
+			(at 161.29 111.76 0)
+			(uuid "b579d223-bd80-4e8d-b501-e5aace50ae7b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "audio-receiver"
+				(path "/c5a9eefd-b86f-4174-bbc7-e8261656b786"
+					(page "3")
 				)
 			)
 		)
