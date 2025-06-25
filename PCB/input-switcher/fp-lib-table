@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "PJRAS4X2U01AUX")(type "KiCad")(uri "${KIPRJMOD}/PJRAS4X2U01AUX.pretty")(options "")(descr ""))
+)

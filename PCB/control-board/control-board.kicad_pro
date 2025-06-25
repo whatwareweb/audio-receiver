@@ -450,7 +450,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "input-switcher.kicad_pro",
+    "filename": "control-board.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -485,7 +485,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "./",
+      "netlist": "",
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
@@ -576,36 +576,6 @@
           "group_by": true,
           "label": "Mouser PN",
           "name": "Mouser PN",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Mouser Part Number",
-          "name": "Mouser Part Number",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Mouser Price/Stock",
-          "name": "Mouser Price/Stock",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Height",
-          "name": "Height",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturer_Name",
-          "name": "Manufacturer_Name",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturer_Part_Number",
-          "name": "Manufacturer_Part_Number",
           "show": false
         }
       ],
@@ -658,7 +628,7 @@
   },
   "sheets": [
     [
-      "904be595-901c-4cb6-9e44-48f12e742d73",
+      "87b9547c-976b-4525-a75f-528f069b97bb",
       "Root"
     ]
   ],
