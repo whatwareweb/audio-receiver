@@ -55,7 +55,7 @@ With that out of the way, I started looking up all the part numbers on Mouser to
 
 Time spent: 6 hours
 
-# June 23  - 
+# June 23  - Footprints, PCB layout and routing
 First I continued on assigning footprints, it was basically just resistors left. One of the annoying things with resistors and capacitors is that some of the model names are super long and just a huge pain to decode to figure out what the right footprint is. I would go off of the Mouser description, but I found several examples of that being incorrect.
 Another thing I found while assigning these footprints are that the component numbers of the resistors was somehow messed up when I copied over the hierarchical schematic, so I had to go in and fix that as well. I finally checked to make sure all the parts were in stock, and then it was time for pcb layout!
 
@@ -91,3 +91,9 @@ OK awesome, the amplifier PCB is finished. Now, I need to get started on the inp
 First thing is as always to get started on the schematic, so I added in the main IC. However, at this point I realized that it would be annoying to use this IC because it cannot output above and below the supply rails, so it would be better to use a different IC. Also, it has a pretty high resistance. However that's gonna have to wait for tomorrow because i'm out of time.
 
 Time spent: 7h
+
+# June 24 - lots of research on switching ICs
+First thing I did today was look for an alternative for that IC. After like an hour and a half of searching, one thing that made it significantly easier was that I found an IC with a much much lower on resistance, the MAX4618, which is pin-compatible with the standard 4052. I also found this random Stackexchange post that showed how to DC-bias the analog voltage, which solved one of the problems I was having with biasing: https://electronics.stackexchange.com/questions/14404/dc-biasing-audio-signal . This method of biasing will reduce the amount of noise coming from the power supply via the capacitor on the resistor voltage divider. This will avoid switching noise from appearing on the input of the amplifier. I also found this great video explaining how to reduce the ESR of capacitors to be able to reduce switching noise as much as possible: https://www.youtube.com/watch?v=Bt1hi9C1Upk . Ant it somehow was my lucky day, because in the Youtube recommended page of that video, there was this video, which provided a ton more info on just what I was trying to do! https://www.youtube.com/watch?v=93teJFpJiZU
+Sadly I had to go to bed after watching all these, but this is so much helpful information that i'll hopefully be able to finish this tomorrow!
+
+time spent: 3h
