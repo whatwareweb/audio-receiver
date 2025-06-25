@@ -1,0 +1,3 @@
+[submodule "PCB/control-board/KiCad-SSD1306-0.91-OLED-4pin-128x32.pretty"]
+	path = PCB/control-board/KiCad-SSD1306-0.91-OLED-4pin-128x32.pretty
+	url = https://github.com/gorbachev/KiCad-SSD1306-0.91-OLED-4pin-128x32.pretty
