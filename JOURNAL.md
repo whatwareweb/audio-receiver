@@ -97,3 +97,22 @@ First thing I did today was look for an alternative for that IC. After like an h
 Sadly I had to go to bed after watching all these, but this is so much helpful information that i'll hopefully be able to finish this tomorrow!
 
 time spent: 3h
+
+# June 25 - 
+Time to put everything I learned yesterday into practice! After watching the video, I decided to switch back to the cd4052b again 😭 However, this time I found a power supply on Mouser that can supply 5VDC and -5VDC, so that should work great for this application. I also realized, since the impedance of the main audio amplifier is so low, the ON-resistance shouldn't matter too much. However, I still do have to worry about decoupling capacitors especially for the IC, because any noise or ripple in the power supply will be audible in the audio signal. 
+
+After drawing up the schematic for this input board, it looks like this: 
+![image](https://github.com/user-attachments/assets/ec82f2b7-5af9-4a04-b554-5e3668945afd)
+
+so now I need to assign footprints and find parts. During this process, I found a great part for the RCA connectors that had all 4 audio input jacks in one part. However, this was not compatible with my schematic, because it had all the jacks in one part. Luckily, Mouser had symbols available for this part, so I was able to download them off of their site. The symbol was pretty ugly though, so I just edited it to make it more similar to the existing coaxial connector symbol. This was my first time creating multi-unit symbols, so I had to learn how to do this, I found a great tutorial on the Kicad forums: https://forum.kicad.info/t/kicad-7-8-creating-schematic-symbols-with-multiple-units/47166
+
+After drawing up the schematic, I double checked the circuit again just to be 100% sure. I did not find any mistakes, so I went aheead to designing the PCB. When I converted the scheamtic to PCB though, I found that one of the footprints was wrong, so I went ahead and changed that. Then I went ahead and routed the rest of the PCB. Here it is: 
+![image](https://github.com/user-attachments/assets/9cda270e-6506-476b-891a-af5f7b31aa2c)
+This routing was pretty self-explanatory and nothing really special about it. Here's the 3d view:
+![image](https://github.com/user-attachments/assets/2814fda5-36de-4b92-93de-6dc28ed3c73f)
+
+Magically, the 3d model for the RCA jacks seems to have been imported automatically when I downloaded the footprint and symbol from Mouser.
+
+Next, with the input board finished, I needed to make the control board. I plan to build this control board around the Attiny84 IC, which is a very simple, cheap, and well-documented microcontroller which can work with the Arduino IDE. I also plan to have one of those really cheap OLED screens, and 4 or so buttons. For the OLED screen, I found great documentation on how to add this from the #hackpad channel in the slack.
+
+Getting started on the schematic, luckily the Attiny chip was available in the default Kicad symbols, so that made that easy. Next, I followed this guide on Instructables to figure out how to hook everything up. https://www.instructables.com/Mini-Game-Console-With-ATTINY84-and-OLED-Display/ This guide is for a game console, but it has most of the same concepts as I'm using here in this control board. 
