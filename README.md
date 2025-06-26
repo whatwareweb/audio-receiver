@@ -29,7 +29,12 @@ My goals for this project were to have good sound quality with modern features, 
  - 3 separate PCBs for low noise
 
 ### Usage
-It is super simple, just hook up a line level signal to the RCA jacks on the back, and select your input and you're good to go! 
+It is super simple, just hook up a line level signal to the RCA jacks on the back, and select your input and you're good to go!
+
+### Wiring
+To wire up the internal parts, simply connect the +/-5v line from the first power supply to the input board, the +5v line to the control board, and the +36v line from the 2nd power supply to the amplifier board, as shown in the PCB silkscreen. Then, using the Phoenix cables in the BOM, connect the Phoenix connectors together. 
+![image](https://github.com/user-attachments/assets/1d36d040-ea10-4a6a-8176-e416a3e7fd39)
+
 
 
 ### PCB screenshots
