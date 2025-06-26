@@ -143,7 +143,15 @@ I quickly made this box to hold the components:
 ![image](https://github.com/user-attachments/assets/eb28ab5a-5aa4-4fe1-87ab-d2225bacce1c)
 and that is the main amplifier PCB model in there. 
 
-ANd here is the cad finished! It's not the best, but since I am brand new to Onshape I think it'll do!
+ANd here is the cad prototype! It's not the best, but since I am brand new to Onshape I think it'll do!
 ![image](https://github.com/user-attachments/assets/256e7402-3646-4cb0-b103-d9a268aeace9)
 
 Time spent: 7h
+
+# June 26 - More CAD
+Today I learned a TON about onshape, mostly by asking google gemini 💀
+
+i learned about how to use fillets, and also there's a super useful feature where if you double-click an assembly in the left pane, it'll make everything else transparent and let you edit that one part alone. With gemini's help, here's the new cad:
+![image](https://github.com/user-attachments/assets/ba9dadfb-2678-4747-9c10-192520377cb4)
+
+time spent: 4h
