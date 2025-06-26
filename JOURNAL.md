@@ -4,6 +4,9 @@ author: "whatware"
 description: "OSHW DIY audio reciever"
 created_at: "2025-06-18"
 ---
+
+total time spent: 35-40hr
+
 # June 18 - setup and starting on schematic
 Today i got the Git repo set up and started making the project with Kicad. This was my first Highway project so I had to learn how to set up the repo and submission and everything for that.
 
