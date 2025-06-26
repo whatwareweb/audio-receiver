@@ -1,5 +1,7 @@
 # audio-receiver
 OSHW audio reciever and amplifier
+![image](https://github.com/user-attachments/assets/35468bbe-5100-4915-8d2c-0d1e899e9f3a)
+
 
 ### What is it
 This is an audio receiver and amplifier with a classic design. I built it because I wanted to learn more about Class AB amplifier design and analog circuitry in general.

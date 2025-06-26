@@ -116,3 +116,31 @@ Magically, the 3d model for the RCA jacks seems to have been imported automatica
 Next, with the input board finished, I needed to make the control board. I plan to build this control board around the Attiny84 IC, which is a very simple, cheap, and well-documented microcontroller which can work with the Arduino IDE. I also plan to have one of those really cheap OLED screens, and 4 or so buttons. For the OLED screen, I found great documentation on how to add this from the #hackpad channel in the slack.
 
 Getting started on the schematic, luckily the Attiny chip was available in the default Kicad symbols, so that made that easy. Next, I followed this guide on Instructables to figure out how to hook everything up. https://www.instructables.com/Mini-Game-Console-With-ATTINY84-and-OLED-Display/ This guide is for a game console, but it has most of the same concepts as I'm using here in this control board. 
+
+Here's the control board scheamtic:
+
+![image](https://github.com/user-attachments/assets/f6a135c5-029f-4814-8b48-9b036173b7d1)
+It includes the header pins for programming the Attiny, which will be necessary when uploading the software.
+
+When I got to laying out the components, I decided to lay out the OLED screen horizontally on top of the 4 buttons, which were arranged into a D-pad and one button.
+
+![image](https://github.com/user-attachments/assets/5e2987ac-e055-4635-bba7-5a611fe18a37)
+
+Here is the 3d view of the finished board:
+
+![image](https://github.com/user-attachments/assets/1b52a9d0-2237-4e90-a391-be2315fcfb8d)
+
+and here's the layout:
+
+![image](https://github.com/user-attachments/assets/d6cb069c-7942-4607-93c4-076550d106be)
+
+OK, now with all 3 boards out of the way, it's time to start CAD. This is the part I think I will struggle with the most, because I've not had much experience. I've heard good things about Onshape before, so I'll make an account there and see if it lives up to the hype. I began by importing the 3D model of the amplifier PCB. I used this tutorial to be able to do so: https://deadbadger.cz/blog/importing-kicad-board-to-onshape . However, I then realized I had absolutely zero idea what I was doing, so I went and watched a Youtube tutorial on Onshape: https://www.youtube.com/watch?v=2utLjjkXpIg
+
+I quickly made this box to hold the components:
+![image](https://github.com/user-attachments/assets/eb28ab5a-5aa4-4fe1-87ab-d2225bacce1c)
+and that is the main amplifier PCB model in there. 
+
+ANd here is the cad finished! It's not the best, but since I am brand new to Onshape I think it'll do!
+![image](https://github.com/user-attachments/assets/256e7402-3646-4cb0-b103-d9a268aeace9)
+
+Time spent: 7h
