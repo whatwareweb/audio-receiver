@@ -33,8 +33,7 @@ It is super simple, just hook up a line level signal to the RCA jacks on the bac
 
 ### Wiring
 To wire up the internal parts, simply connect the +/-5v line from the first power supply to the input board, the +5v line to the control board, and the +36v line from the 2nd power supply to the amplifier board, as shown in the PCB silkscreen. Then, using the Phoenix cables in the BOM, connect the Phoenix connectors together. 
-![image](https://github.com/user-attachments/assets/1d36d040-ea10-4a6a-8176-e416a3e7fd39)
-
+![image](https://github.com/user-attachments/assets/c0c744b8-105f-4ebf-ae21-315923edc48e)
 
 
 ### PCB screenshots
