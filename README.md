@@ -25,3 +25,9 @@ The design of the amplifier portion is similar to amplifiers built in the so-cal
 
 ### Usage
 It is super simple, just hook up a line level signal to the RCA jacks on the back, and select your input and you're good to go!
+
+
+### PCB screenshots
+![image](https://github.com/user-attachments/assets/5a289160-5d17-4d67-b57a-a452f3fbccd6)
+![image](https://github.com/user-attachments/assets/708e6c93-590d-4da3-956e-3690656630c5)
+![image](https://github.com/user-attachments/assets/b07cf53d-5b73-4520-8fc8-490e1c298acb)
