@@ -142,3 +142,5 @@ and that is the main amplifier PCB model in there.
 
 ANd here is the cad finished! It's not the best, but since I am brand new to Onshape I think it'll do!
 ![image](https://github.com/user-attachments/assets/256e7402-3646-4cb0-b103-d9a268aeace9)
+
+Time spent: 7h
