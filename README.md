@@ -1,6 +1,7 @@
 # audio-receiver
 OSHW audio reciever and amplifier
-![image](https://github.com/user-attachments/assets/8662795f-7402-4097-a7a3-fefd9720c8e1)
+![image](https://github.com/user-attachments/assets/4f015e63-ae5e-4899-b7e0-d035019090e2)
+
 
 
 
