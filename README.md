@@ -13,6 +13,9 @@ Class-AB amplifiers, while less efficient and therefore harder to get high power
 
 The design of the amplifier portion is similar to amplifiers built in the so-called "Golden age" of Hi-fi audio, in the 70s and 80s. I wanted a Class-AB amplifier that had the great sound quality of products from times gone by, but with modern features such as digital screens, and without the clunky mechanical interfaces of older receivers.
 
+### Goals
+My goals for this project were to have good sound quality with modern features, and also to use industry standard practices for receiver assembly to make it easy to assemble.
+
 ### Features
  - Stereo audio amplifier
  - 4 input channels
@@ -24,7 +27,7 @@ The design of the amplifier portion is similar to amplifiers built in the so-cal
  - 3 separate PCBs for low noise
 
 ### Usage
-It is super simple, just hook up a line level signal to the RCA jacks on the back, and select your input and you're good to go!
+It is super simple, just hook up a line level signal to the RCA jacks on the back, and select your input and you're good to go! 
 
 
 ### PCB screenshots
