@@ -12,3 +12,4 @@ ac power lead -
 dip16 socket - https://www.mouser.com/ProductDetail/TE-Connectivity/1-2199298-4?qs=fK8dlpkaUMvpL10rY9Abiw%3D%3D
 36v psu - https://www.mouser.com/ProductDetail/MEAN-WELL/LRS-150-36?qs=vDxCgdWo2h82V5jS5IXvUQ%3D%3D
 +/-5v psu - https://www.mouser.com/ProductDetail/MEAN-WELL/PD-2505?qs=V9a8iPeg90ze2O5SXmOiQQ%3D%3D
+OLED display -
