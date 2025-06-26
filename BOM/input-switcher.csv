@@ -1,0 +1,8 @@
+"Reference","Qty","Value","DNP","Exclude from BOM","Exclude from Board","Footprint","Datasheet","Mouser PN"
+"C1,C3","2","100nF","","","","Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm","https://www.mouser.com/datasheet/2/210/POE_D13_00_E_RD-1663659.pdf","791-RD21B104K500A5HA "
+"C2,C4","2","10uF","","","","Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm","https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/lead-mlcc/catalog/leadmlcc_halogenfree_fg_en.pdf","810-FG28X5R1E106MR06"
+"J1","1","PJRAS4X2U01AUX","","","","PJRAS4X2U01AUX","https://www.switchcraft.com/assets/1/24/pjras4x2u__x_series_cd.pdf?4683","502-PJRAS4X2U01X "
+"J2","1","Screw_Terminal_01x04","","","","Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_4-G-5,08_1x04_P5.08mm_Horizontal","https://www.phoenixcontact.com/en-us/products/pcb-header-mstba-25-4-g-508-1757268?type=pdf","651-1757268 "
+"J3","1","Screw_Terminal_01x03","","","","Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_3-G-5,08_1x03_P5.08mm_Horizontal","https://www.phoenixcontact.com/en-us/products/pcb-header-mstba-25-3-g-508-1757255?type=pdf","651-1757255 "
+"J4","1","Screw_Terminal_01x03","","","","TerminalBlock_CUI:TerminalBlock_CUI_TB007-508-03_1x03_P5.08mm_Horizontal","https://www.mouser.com/datasheet/2/1628/tb007_508-3511020.pdf","490-TB007-508-03BE "
+"U1","1","CD4052B","","","","Package_DIP:DIP-16_W7.62mm_Socket","http://www.ti.com/lit/ds/symlink/cd4052b.pdf","595-CD4052BE "

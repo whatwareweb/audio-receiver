@@ -1,0 +1,8 @@
+"Reference","Qty","Value","DNP","Exclude from BOM","Exclude from Board","Footprint","Datasheet","Mouser PN"
+"C1","1","100nF","","","","Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm","https://www.mouser.com/datasheet/2/210/POE_D13_00_E_RD-1663659.pdf","791-RD21B104K500A5HA "
+"J1","1","OLED","DNP","Excluded from BOM","","KiCad-SSD1306-0.91-OLED-4pin-128x32:SSD1306-0.91-OLED-4pin-128x32","~","~"
+"J2","1","PROGRAM","DNP","Excluded from BOM","","Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical","~","~"
+"J3","1","Screw_Terminal_01x04","","","","Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_4-G-5,08_1x04_P5.08mm_Horizontal","https://www.phoenixcontact.com/en-us/products/pcb-header-mstba-25-4-g-508-1757268?type=pdf","651-1757268 "
+"J4","1","Screw_Terminal_01x02","","","","TerminalBlock_CUI:TerminalBlock_CUI_TB007-508-02_1x02_P5.08mm_Horizontal","https://www.cuidevices.com/product/resource/tb007-508.pdf","490-TB007-508-02BE "
+"SW1,SW2,SW3,SW4,SW5","5","SW_Push","","","","Button_Switch_THT:SW_PUSH_6mm","https://www.mouser.com/datasheet/2/1628/ts02-3511329.pdf","179-TS026655BK260LCR"
+"U1","1","ATtiny84A-SS","","","","Package_SO:SOIC-14_3.9x8.7mm_P1.27mm","http://ww1.microchip.com/downloads/en/DeviceDoc/doc8183.pdf","556-ATTINY84A-SSFR"
