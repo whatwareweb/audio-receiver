@@ -21,6 +21,7 @@ The design of the amplifier portion is similar to amplifiers built in the so-cal
  - OLED display with renamable inputs
  - 15w per channel output
  - All-analog signal path
+ - 3 separate PCBs for low noise
 
 ### Usage
 It is super simple, just hook up a line level signal to the RCA jacks on the back, and select your input and you're good to go!
