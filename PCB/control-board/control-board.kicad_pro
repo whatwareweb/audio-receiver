@@ -486,7 +486,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../../../../../Desktop/gerber/cb/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "../../../../../Desktop/control-board.step",
