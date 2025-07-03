@@ -41,7 +41,8 @@ To wire up the internal parts, simply connect the +/-5v line from the first powe
 ### PCB screenshots
 ![image](https://github.com/user-attachments/assets/5a289160-5d17-4d67-b57a-a452f3fbccd6)
 ![image](https://github.com/user-attachments/assets/708e6c93-590d-4da3-956e-3690656630c5)
-![image](https://github.com/user-attachments/assets/b07cf53d-5b73-4520-8fc8-490e1c298acb)
+![image](https://github.com/user-attachments/assets/aad95fe1-b50a-4a85-9f60-9e59d3a12382)
+
 
 
 ## BOM
