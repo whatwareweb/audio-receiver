@@ -4060,6 +4060,18 @@
 		(layer "Edge.Cuts")
 		(uuid "f1a6d816-2461-4b76-b0f4-0393d56f26de")
 	)
+	(gr_text "+5V   GND"
+		(at 111.5 103 270)
+		(layer "B.SilkS")
+		(uuid "4705d728-40de-40e9-ac0c-c3f0ae01d4ef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(segment
 		(start 123.69 76.69)
 		(end 126.525 76.69)
@@ -4147,6 +4159,33 @@
 		(layer "F.Cu")
 		(net 1)
 		(uuid "f9e69c57-b1f1-4c0f-8c4d-c2e24a02dad8")
+	)
+	(via
+		(at 131.5 75.5)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 2)
+		(uuid "45513fb6-0226-41fb-a621-dc32466249e7")
+	)
+	(via
+		(at 130.5 75.5)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 2)
+		(uuid "5f1c9355-28cc-40e7-b075-3509358e44b1")
+	)
+	(via
+		(at 132.5 75.5)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 2)
+		(uuid "fa3b3ab2-ceb8-4c62-a414-8f33edb8230f")
 	)
 	(segment
 		(start 166.41224 77.96)
