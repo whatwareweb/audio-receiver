@@ -155,3 +155,21 @@ i learned about how to use fillets, and also there's a super useful feature wher
 ![image](https://github.com/user-attachments/assets/ba9dadfb-2678-4747-9c10-192520377cb4)
 
 time spent: 4h
+
+# July 12-13 - ordering parts
+I just got back from vacation, so now it's time to order the parts. First I went on mouser to get all the components. 
+First thing I did was add all the components from each PCB to a separate Mouser project to organize it better. 
+<img width="1052" height="122" alt="image" src="https://github.com/user-attachments/assets/8f9841c3-973b-4fac-89e3-59ad3ca35fca" />
+Next I added the extra bom:
+<img width="1020" height="156" alt="image" src="https://github.com/user-attachments/assets/b868febd-46c2-43dc-ad59-96ebd76dfe7d" />
+I added all these projects to the cart and the total came to 111.37:
+
+<img width="446" height="78" alt="image" src="https://github.com/user-attachments/assets/45501c01-1425-499c-b12c-493fd8c74a45" />
+and yay for usa tariffs because i got charged an extra $10, how amazing and fun!!!!!!
+
+
+Next i got to work adding all the PCBs to my JLC cart.
+<img width="1309" height="697" alt="image" src="https://github.com/user-attachments/assets/864c6eef-0ff7-4291-8eba-fbcf95fdd544" />
+Also ordered stuff from Amazon which was really simple.
+
+time spent: 1h
